@@ -1,18 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
 .navbar {
-    background-color: #3b883e;
+    background-color: #85be87;
     font-family: 'Gamja Flower', cursive;
     font-size: 2vw;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+#ImagenMain {
+    max-width: 94vw;
+    max-height: 320px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding: 2vw;
+    font-size: 2vw;
+}
+
+#foto {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
 }
 
 @media(min-width:320px) {
     .container-fluid {
         width: 100%;
     }
+    .nav-link {
+        font-size: 4vw;
+    }
+}
+
+@media(min-width:425px) {
+    .nav-link {
+        font-size: 3vw;
+    }
+}
+
+@media(min-width:768px) {
+    .nav-link {
+        font-size: 2vw;
+    }
 }
 
 @media(min-width:992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: space-around;
+    }
+    .nav-link {
+        margin-right: 4vw;
+    }
+    .navbar-brand {
+        font-size: 2.5vw;
+    }
     .container-fluid {
         width: 20vw;
     }
