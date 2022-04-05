@@ -5,3 +5,15 @@
     font-family: 'Gamja Flower', cursive;
     font-size: 2vw;
 }
+
+@media(min-width:320px) {
+    .container-fluid {
+        width: 100%;
+    }
+}
+
+@media(min-width:992px) {
+    .container-fluid {
+        width: 20vw;
+    }
+}
