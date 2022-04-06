@@ -25,6 +25,20 @@ body {
     -webkit-filter: blur(2px);
 }
 
+main {
+    padding: 3vw;
+}
+
+#imagen1 {
+    /*puede ser eliminado, es necesario ajustar las imagenes*/
+    max-width: 90vw;
+    image-resolution: 400px;
+}
+
+#imagen2 {
+    max-width: 90vw;
+}
+
 @media(min-width:320px) {
     .nav-link {
         font-size: 4vw;
