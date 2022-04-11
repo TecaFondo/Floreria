@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #e0e0e0;
+    background-color: #8c8c8c;
 }
 
 #ImagenMain {
@@ -31,12 +31,23 @@ main {
 
 #imagen1 {
     /*puede ser eliminado, es necesario ajustar las imagenes*/
-    max-width: 90vw;
-    image-resolution: 400px;
+    position: relative;
+    width: 100%!important;
+    margin-right: 0;
+    padding-right: 0;
+    height: auto;
 }
 
 #imagen2 {
-    max-width: 90vw;
+    position: relative;
+    width: 100%!important;
+    padding-left: 0;
+    margin-left: 0;
+    height: auto;
+}
+
+#indoAdicional {
+    height: fit-content;
 }
 
 @media(min-width:320px) {
@@ -76,6 +87,14 @@ main {
     .carousel-caption h4 {
         font-size: 5vw;
     }
+    #fotosInfo1 {
+        margin-right: 0;
+        padding-right: 0;
+    }
+    #fotosInfo2 {
+        margin-left: 0;
+        padding-left: 0;
+    }
 }
 
 @media(min-width:992px) {
@@ -84,6 +103,7 @@ main {
     }
     .nav-link {
         margin-right: 4vw;
+        font-size: 1.5vw;
     }
     .navbar-brand {
         font-size: 2.5vw;
