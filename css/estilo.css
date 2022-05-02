@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
 .navbar {
     background-color: #74a053;
-    font-family: 'Gamja Flower', cursive;
+    /*font-family: 'Gamja Flower', cursive;*/
+    font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 2vw;
 }
 
@@ -48,6 +50,11 @@ main {
 
 #indoAdicional {
     height: fit-content;
+}
+
+#fondo,
+#botones a {
+    background-color: #74a053;
 }
 
 @media(min-width:320px) {
